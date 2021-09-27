@@ -1,0 +1,12 @@
+
+.plan {
+  display: flex;
+  align-items: center;
+  &__icon {
+    @include squareShape(50%);
+    display: inline-block;
+    fill: $color-primary;
+    margin-right: 2rem;
+  }
+}
+
